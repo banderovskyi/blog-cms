@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "New Apple Event",
+      "thumbnail": "https://tidbits.com/uploads/2021/04/Apple-Event-April-2021-640x532.jpg",
+      "description": "Apple has announced a virtual event",
+      "content": "Apple has announced a virtual event to be held 20 April 2021 at 10 AM PDT. You can add it to your calendar with a click. In email invitations sent to journalists, Apple called it Spring Loaded, so our best tongue-in-cheek guess is that Apple thinks it has finally built a better mousetrap."
+    }
+  ],
+  "mainPage": [
+    {
+      "id": "1",
+      "title": "Here we can make you the best site",
+      "content": "Resolution possession discovered surrounded advantages has but few add. Yet walls times spoil put. Be it reserved contempt rendered smallest. Studied to passage it mention calling believe an. Get ten horrible remember pleasure two vicinity. Far estimable extremely middleton his concealed perceived principle. Any nay pleasure entrance prepared her. ",
+      "btnLink": "http://google.com/",
+      "headerImage": "https://html.sammy-codes.com/images/background.jpg",
+      "headerTextColor": "#171717",
+      "headerPaddins": "100"
+    }
+  ]
+}

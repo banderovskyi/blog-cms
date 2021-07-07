@@ -1,0 +1,13 @@
+.top-bar {
+  padding: 10px;
+  background-color: #fcfcfc;
+  border-bottom: 1px solid #dcdcdc;
+  position: relative;
+  z-index: 2;
+  max-height: 69px;
+  transition: all 0.3s;
+  &__title {
+    margin-right: 30px;
+    line-height: 1;
+  }
+}

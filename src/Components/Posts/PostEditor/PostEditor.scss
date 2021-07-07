@@ -1,0 +1,109 @@
+.post-editors {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  &__item {
+    width: 24%;
+    margin: 1%;
+    min-width: 280px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    padding: 30px 20px 10px 20px;
+    position: relative;
+    margin-top: 20px;
+    .post-editor-btn {
+      position: absolute;
+      top: -17.5px;
+      right: -17.5px;
+      z-index: 1;
+      &_delete {
+        right: 20px;
+      }
+    }
+  }
+}
+
+.post-editor-wrapper {
+  padding: 20px;
+  border: 1px solid #dee2e6;
+  border-top: none;
+}
+
+.post-editor {
+  margin: 0;
+  list-style: none;
+  .form-control {
+    background: transparent;
+  }
+  .form-control[disabled] {
+    border-color: transparent;
+  }
+  .mb-3 {
+    position: relative;
+    cursor: pointer;
+    textarea {
+      height: 36px;
+    }
+  }
+}
+
+.post-editor-btn {
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  &::after {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(30deg);
+    padding: 2px;
+    border-radius: 50%;
+    background-color: lightblue;
+    transition: all 0.3s;
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+  }
+  &_edit {
+    &::after {
+      content: '\270F';
+    }
+    &:hover {
+      &::after {
+        background-color: rgb(78, 201, 241);
+      }
+    }
+  }
+  &_save {
+    &::after {
+      content: '\2713';
+      background-color: green;
+      transform: rotate(0);
+      color: white;
+    }
+    &:hover {
+      &::after {
+        background-color: rgb(1, 90, 1);
+      }
+    }
+  }
+  &_delete {
+    right: 40px;
+    &::after {
+      content: '\2715';
+      transform: rotate(0);
+      background-color: rgb(197, 0, 66);
+      color: white;
+    }
+    &:hover {
+      &::after {
+        background-color: rgb(138, 1, 46);
+      }
+    }
+  }
+}
